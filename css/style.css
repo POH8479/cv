@@ -1,0 +1,73 @@
+/********************************TAG SELECTORS********************************/
+body{
+    background-color: #dfcdc3;
+    margin: 0;
+    margin-top: 50px;
+}
+
+hr{
+    background-color: #5f6769;
+    border-style: none;
+    height: 2px;
+    width: 95%;
+}
+
+p{
+    color: #3c4245;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/********************************CLASS SELECTORS********************************/
+.disp-picture{
+    width: 20%;
+}
+
+.section{
+    margin: 10px;
+    margin-left: 2.5%;
+}
+
+.heading{
+    color: #719192;
+    font-family: 'Dosis', sans-serif;
+}
+
+.reg-text{
+    color: #3c4245;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar{
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #5f6769;
+}
+
+.logo{
+    margin: 9px;
+    padding-left: 20px;
+}
+
+.nav-heading{
+    position: absolute;
+    padding: 16px;
+    color: #719192;
+    text-decoration: none;
+    font-size: 18;
+}
+
+.nav-heading:hover {
+  background-color: #3c4245;
+}
+/********************************ID SELECTORS********************************/
+#display-picture{
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* #3c4245 #5f6769 #719192 #dfcdc3 */

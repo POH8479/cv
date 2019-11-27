@@ -3,69 +3,90 @@
     <head>
         <meta charset="utf-8">
         <title>Pieter's Personal Site</title>
+
+        <!-- links -->
+        <link rel="stylesheet" type"text/css" href="css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link href="https://fonts.googleapis.com/css?family=Dosis|Montserrat&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <table cellspacing="10">
-            <tr>
-                <td><img src="images/pieter-display.png" alt="pieter profile picture"></td>
-                <td><h1>Pieter O'Hearn</h1>
-                <p><em>Software Engineering Student at the <strong>University of Sydney</strong>.</em></p>
-                <p>I am enthusiastic and eager to learn</p></td>
-            </tr>
-        </table>
+        <div class="nav-bar">
+            <img class="logo" src="favicon-32x32.png" alt="logo-img">
+            <a class="nav-heading" href="contact-me.html">Contact me</a>
+        </div>
+        <div class="section">
+            <table cellspacing="10">
+                <tr>
+                    <td class="disp-picture"><img id="display-picture" src="images/pieter-display.jpg" alt="pieter profile picture"></td>
+                    <td><h1 class="heading">Pieter O'Hearn</h1>
+                    <p"><em>Software Engineering Student at the <strong>University of Sydney</strong>.</em></p>
+                    <p">I am enthusiastic and eager to learn</p></td>
+                </tr>
+            </table>
+        </div>
         <hr>
-        <h3>Education</h3>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Study</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>October 2014</td>
-                    <td>Higher School Certificate, <i>St Ives High School</i></td>
-                </tr>
-                <tr>
-                    <td>Present</td>
-                    <td>Bachelor of Software Engineering Honours and Bachelor of Science, <i>The University of Sydney</i></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="section">
+            <h3 class="heading">Education</h3>
+            <table class="reg-text" cellspacing="10">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Study</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>October 2014</td>
+                        <td>Higher School Certificate, <i>St Ives High School</i></td>
+                    </tr>
+                    <tr>
+                        <td>Present</td>
+                        <td>Bachelor of Software Engineering Honours and Bachelor of Science, <i>The University of Sydney</i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <hr>
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>June 2011 - January 2017</td>
-                    <td>KFC Shift Supivisor</td>
-                </tr>
-                <tr>
-                    <td>January 2017 - Present</td>
-                    <td>BWS Liquor assistant</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="section">
+            <h3 class="heading">Work Experience</h3>
+            <table class="reg-text" cellspacing="10">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Work</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>June 2011 - January 2017</td>
+                        <td>KFC Shift Supivisor</td>
+                    </tr>
+                    <tr>
+                        <td>January 2017 - Present</td>
+                        <td>BWS Liquor assistant</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>Java</td>
-                <td>⭐️⭐️⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>⭐️⭐️⭐️⭐️</td>
-            </tr>
-        </table>
+        <div class="section">
+            <h3 class="heading">Skills</h3>
+            <table class="reg-text" cellspacing="10">
+                <tr>
+                    <td>Java</td>
+                    <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>⭐️⭐️⭐️⭐️</td>
+                </tr>
+            </table>
+        </div>
         <hr>
-        <a href="contact-me.html">Contact me</a>
+
     </body>
 </html>
